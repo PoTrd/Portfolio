@@ -1,0 +1,23 @@
+.aboutPage {
+    height: 100vh;
+    width: 100vw;
+}
+
+.titreBloc{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.number {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #009C95;
+}
+
+.text {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffff
+}
