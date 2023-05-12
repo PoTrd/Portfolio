@@ -11,7 +11,7 @@
 .buttons {
     display: grid;
     grid-template-columns: repeat(5, auto);
-    grid-gap: 100px;
+    grid-gap: 5%;
     justify-content: end;
     align-items: center;
 }
