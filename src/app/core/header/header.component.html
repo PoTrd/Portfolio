@@ -1,6 +1,6 @@
 <div class="header">
 
-    <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg" (click)="goToHome()">
         <rect width="300" height="300" fill="#091732"/>
         <circle cx="150" cy="150" r="137.5" stroke="#009C95" stroke-width="5"/>
         <path d="M99.2 88.4C102.533 88.5333 106.8 88.6667 112 88.8C117.2 88.9333 122.4 89 127.6 89C134.133 89 140.333 88.9333 146.2 88.8C152.067 88.6667 156.2 88.6 158.6 88.6C176.467 88.6 189.733 92.2667 198.4 99.6C207.2 106.933 211.6 116.4 211.6 128C211.6 132.8 210.733 137.867 209 143.2C207.267 148.4 204.267 153.267 200 157.8C195.733 162.2 189.867 165.8 182.4 168.6C175.067 171.4 165.667 172.8 154.2 172.8H134.2V168.8H152.2C160.6 168.8 167 167 171.4 163.4C175.933 159.8 178.933 155.067 180.4 149.2C182 143.333 182.8 137 182.8 130.2C182.8 117.533 180.733 108.067 176.6 101.8C172.467 95.5333 165.333 92.4 155.2 92.4C149.733 92.4 146.133 93.5333 144.4 95.8C142.8 98.0667 142 102.667 142 109.6V208C142 213.067 142.533 216.867 143.6 219.4C144.667 221.933 146.733 223.6 149.8 224.4C152.867 225.2 157.267 225.667 163 225.8V230C159.133 229.733 154.133 229.6 148 229.6C141.867 229.467 135.533 229.4 129 229.4C123.4 229.4 118 229.467 112.8 229.6C107.6 229.6 103.067 229.733 99.2 230V226C103.6 225.733 106.867 225.2 109 224.4C111.267 223.6 112.733 222 113.4 219.6C114.2 217.2 114.6 213.6 114.6 208.8V109.6C114.6 104.667 114.2 101.067 113.4 98.8C112.733 96.4 111.267 94.8 109 94C106.867 93.0667 103.6 92.5333 99.2 92.4V88.4Z" fill="#009C95"/>
@@ -11,19 +11,19 @@
             <mat-icon>more_vert</mat-icon>
         </button>
         <mat-menu #menu="matMenu">
-            <button mat-menu-item class="button about">
+            <button mat-menu-item class="button about" (click)="scrollToSection('app-about')">
                 <span class="buttonNumber">#1. </span>
                 <span class="buttonText">about</span>
             </button>
-            <button mat-menu-item class="button experience">
+            <button mat-menu-item class="button experience" (click)="scrollToSection('app-experience')">
                 <span class="buttonNumber">#2. </span>
                 <span class="buttonText">experience</span>
             </button>
-            <button mat-menu-item class="button work">
+            <button mat-menu-item class="button work" (click)="scrollToSection('app-work')">
                 <span class="buttonNumber">#3. </span>
                 <span class="buttonText">work</span>
             </button>
-            <button mat-menu-item class="button contact">
+            <button mat-menu-item class="button contact" (click)="goToContact()">
                 <span class="buttonNumber">#4. </span>
                 <span class="buttonText">contact</span>
             </button>
@@ -35,19 +35,19 @@
     </div>
         
     <div class="menuButtons">
-        <button class="button about">
+        <button class="button about" (click)="scrollToSection('app-about')">
             <span class="buttonNumber">#1. </span>
             <span class="buttonText">about</span>
         </button>
-        <button class="button experience">
+        <button class="button experience" (click)="scrollToSection('app-experience')">
             <span class="buttonNumber">#2. </span>
             <span class="buttonText">experience</span>
         </button>
-        <button class="button work">
+        <button class="button work" (click)="scrollToSection('app-work')">
             <span class="buttonNumber">#3. </span>
             <span class="buttonText">work</span>
         </button>
-        <button class="button contact">
+        <button class="button contact" (click)="goToContact()">
             <span class="buttonNumber">#4. </span>
             <span class="buttonText">contact</span>
         </button>
