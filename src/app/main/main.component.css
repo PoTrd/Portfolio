@@ -6,52 +6,111 @@
     overflow-x: hidden;
 }
 
-.blocTitre{
-    display: flex;
-    height: calc(100vh - 140px);
-    width: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Playfair Display', serif;
+@media screen and (min-width: 951px) {
+
+    .blocTitre{
+        display: flex;
+        height: calc(100vh - 140px);
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .paragraphGrid{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+    }
+    
+    
+    .starter {
+        /* font-size: 50px; */
+        font-size: 3rem;
+        font-weight: bold;
+        color: #009c95;
+    }
+    
+    .name{
+        /* font-size: 100px; */
+        font-size: 6rem;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    
+    .statut {
+        /* font-size: 50px; */
+        font-size: 3rem;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    
+    .presentation {
+        /* font-size: 20px; */
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    
+    span{
+        margin-top: 40px;
+    }
+    
 }
 
-.paragraphGrid{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding: 5%;
+@media screen and (max-width: 950px) {
+
+    .blocTitre{
+        display: flex;
+        height: calc(100vh - 140px);
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .paragraphGrid{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+    }
+    
+    
+    .starter {
+        /* font-size: 50px; */
+        font-size: 2rem;
+        font-weight: bold;
+        color: #009c95;
+    }
+    
+    .name{
+        /* font-size: 100px; */
+        font-size: 3rem;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    
+    .statut {
+        /* font-size: 50px; */
+        font-size: 1,5rem;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    
+    .presentation {
+        /* font-size: 20px; */
+        font-size: 0,7rem;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    
+    span{
+        margin-top: 40px;
+    }
+
 }
 
-
-.starter {
-    /* font-size: 50px; */
-    font-size: 3rem;
-    font-weight: bold;
-    color: #009c95;
-}
-
-.name{
-    /* font-size: 100px; */
-    font-size: 6rem;
-    font-weight: bold;
-    color: #ffffff;
-}
-
-.statut {
-    /* font-size: 50px; */
-    font-size: 3rem;
-    font-weight: bold;
-    color: #ffffff;
-}
-
-.presentation {
-    /* font-size: 20px; */
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #ffffff;
-}
-
-span{
-    margin-top: 40px;
-}
