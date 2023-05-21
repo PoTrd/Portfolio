@@ -12,6 +12,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { ExperienceComponent } from './core/experience/experience.component';
 import { WorkComponent } from './core/work/work.component';
 import { ContactComponent } from './core/contact/contact.component';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ContactComponent } from './core/contact/contact.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
