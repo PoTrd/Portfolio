@@ -14,6 +14,7 @@ import { WorkComponent } from './core/work/work.component';
 import { ContactComponent } from './core/contact/contact.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ExperienceComponent,
     WorkComponent,
     ContactComponent,
+    TestComponent,
   ],
   imports: [
     BrowserModule,
