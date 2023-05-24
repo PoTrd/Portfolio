@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WorkComponent implements OnInit {
 
+    showImage = false;
+
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+  }
+
+  show() {
+    this.showImage = !this.showImage;
   }
 
 }

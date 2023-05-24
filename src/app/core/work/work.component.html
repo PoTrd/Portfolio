@@ -4,7 +4,21 @@
         <span class="text">work</span>
     </div>
     <div class="container">
-        <div class="projets">            
+        <div class="projet p1">
+            <img src="assets/images/logoP.png" class="logoP">       
+        </div>
+        <div class="projet p2" (click)="show()">
+            <img src="assets/images/logoEasysave.png" class="logoEasysave">
+            <!-- <img src="assets/images/Easysave.png" class="Easysave"> -->
+            <!-- <img src="assets/images/SettingsEasysave.png" class="SettingsEasysave"> -->
+        </div>
+        <div class="projet p3"  *ngIf="showImage">            
+        </div>
+    </div>
+    <div class="image-viewer" *ngIf="showImage">
+        <span class="close" (click)="show()">&times;</span>
+        <div class="blocImage">
+            <img src="assets/images/Easysave.png" class="Easysave">
         </div>
     </div>
 </div>
