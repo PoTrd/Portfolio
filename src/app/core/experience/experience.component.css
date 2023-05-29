@@ -1,9 +1,4 @@
-.experiencePage {
-    height: 100%;
-    width: 100%;
-}
-
-.titreBloc{
+.titreBloc {
     padding-top: 30px;
     padding-left: 30px;
 }
@@ -22,11 +17,33 @@
     color: #ffff
 }
 
-.container {
-    padding: 30px;
+@media screen and (min-width: 1201px) {
+
+    .experiencePage {
+        height: 100%;
+        width: 100%;
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    .frise {
+        height: 100%;
+        width: 100%;
+    }
+
 }
 
-.frise {
-    height: 100%;
-    width: 100%;
+@media screen and (max-width: 1200px) {
+    
+    .container {
+            padding: 30px;
+        }
+    
+    .frise {
+        height: 100%;
+        width: 100%;
+    }
+
 }
