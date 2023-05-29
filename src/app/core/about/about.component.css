@@ -60,7 +60,7 @@
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1200px) {
 
     .container {
         display: flex;
@@ -97,4 +97,13 @@
         color: #ffff
     }
 
+    @media screen and (max-width: 480px) {
+
+        .logoBehance {
+            height: 100%;
+            width: 100%;
+        }
+    }
 }
+
+
