@@ -1,21 +1,24 @@
 <app-header></app-header>
-
-<div class="formGroup">
-    <div class="blocNom">
-        <label for="nom">Nom</label>
-        <input type="text" id="nom" name="nom" formControlName="nom">
+<div class="contactPage">
+    <div class="formGroup">
+        <div class="blocNom">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" formControlName="nom">
+        </div>
+        <div class="blocPrenom">
+            <label for="prenom">Prenom</label>
+            <input type="text" id="prenom" name="prenom" formControlName="prenom">
+        </div>
+        <div class="blocMail">
+            <label for="mail">e-mail</label>
+            <input type="email" id="mail" name="mail" formControlName="mail">
+        </div>
+        <div class="blocMessage">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" cols="40" formControlName="message"></textarea>
+        </div>
+        <div class="blocSubmit">
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </div>
     </div>
-    <div class="blocPrenom">
-        <label for="prenom">Prenom</label>
-        <input type="text" id="prenom" name="prenom" formControlName="prenom">
-    </div>
-    <div class="blocMail">
-        <label for="mail">e-mail</label>
-        <input type="email" id="mail" name="mail" formControlName="mail">
-    </div>
-    <div class="blocMessage">
-      iu    <label for="message">Message</label>
-        <textarea id="message" name="message" rows="4" cols="40" formControlName="message"></textarea>
-    </div>
-
 </div>

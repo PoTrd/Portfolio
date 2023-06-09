@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperienceComponent implements OnInit {
 
+  showImage = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  show() {
+    this.showImage = !this.showImage;
   }
 
 }

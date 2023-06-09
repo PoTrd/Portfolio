@@ -4,6 +4,12 @@
         <span class="text">experience</span>
     </div>
     <div class="container">
-        <img src="assets/images/Frise.png" class="frise">
+        <img src="assets/images/Frise.png" class="frise" (click)="show()">
+    </div>
+    <div class="image-viewer" *ngIf="showImage">
+        <span class="close" (click)="show()">&times;</span>
+        <div class="blocImage">
+            <img src="assets/images/Frise.png" class="frise">
+        </div>
     </div>
 </div>

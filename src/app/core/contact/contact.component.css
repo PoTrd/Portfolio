@@ -1,0 +1,52 @@
+    .contactPage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: calc(100vh - 140px);
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .formGroup {
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .formGroup label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #fff;;
+    }
+
+    .formGroup input,
+    .formGroup textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+    .formGroup textarea {
+        height: 100px;
+    }
+
+    .formGroup .blocSubmit {
+        margin-top: 20px;
+    }
+
+    .formGroup .blocSubmit button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .formGroup .blocSubmit button:hover {
+        background-color: #45a049;
+    }

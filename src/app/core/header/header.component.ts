@@ -29,4 +29,8 @@ export class HeaderComponent implements OnInit {
     this.router.navigate(['/'])
   }
 
+  download(fichier: string) {
+    window.open(`assets/images/${fichier}`, '_blank');
+  }
+
 }
