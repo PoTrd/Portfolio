@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { SharedScrollServiceService } from '../../services/shared-scroll-service.service';
 import { Router } from '@angular/router';
 
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -28,9 +29,4 @@ export class HeaderComponent implements OnInit {
   goToHome() {
     this.router.navigate(['/'])
   }
-
-  download(fichier: string) {
-    window.open(`assets/images/${fichier}`, '_blank');
-  }
-
 }
