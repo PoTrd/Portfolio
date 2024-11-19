@@ -28,6 +28,7 @@
     color: white;
     font-size: 13rem;
     font-family: "Jaro", serif;
+    line-height: 11rem;
 }
 
 .secondaryTitle {
@@ -53,9 +54,10 @@
 }
 
 .sideStrip span {
-    writing-mode: sideways-lr;
+    writing-mode: vertical-rl;
     white-space: nowrap;
     padding: 15px;
+    transform: rotate(180deg);
 }
 
 .sideStrip hr {

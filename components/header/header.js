@@ -7,18 +7,18 @@ export default function Header() {
                 <img className={styles.logo} src="/logo_v0.png" alt="logo" />
             </div>
             <div className={styles.startMenu}>
-                <span>
+                <a>
                     About
-                </span>
-                <span>
+                </a>
+                <a>
                     Portfolio
-                </span>
+                </a>
             </div>
             <div className={styles.blocContact}>
-                <span>
+                <a>
                     Contact me
-                </span>
-                <img className={styles.arrow} src="/white_arrow.png" alt="arrow-top"/>
+                    <img className={styles.arrow} src="/white_arrow.png" alt="arrow-top"/>
+                </a>
             </div>
 
         </header>
