@@ -1,0 +1,33 @@
+.header {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+    font-family: "Jaro", serif;
+    font-size: 1.2rem;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.startMenu {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.startMenu span {
+    margin-left: 20px;
+}
+
+.blocContact {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
