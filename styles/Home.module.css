@@ -25,14 +25,12 @@
 }
 
 .mainTitle {
-    color: white;
     font-size: 13rem;
     font-family: "Jaro", serif;
     line-height: 11rem;
 }
 
 .secondaryTitle {
-    color: white;
     font-size: 1rem;
     font-family: "Jaro", serif;
 }
