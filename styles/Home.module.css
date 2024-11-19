@@ -1,4 +1,64 @@
 .container {
-  width: 100vw;
-  height: 100vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    width: 100%;
+    height: calc(100% - 70px);
+    display: flex;
+}
+
+.mainBloc {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blocTitle {
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mainTitle {
+    color: white;
+    font-size: 13rem;
+    font-family: "Jaro", serif;
+}
+
+.secondaryTitle {
+    color: white;
+    font-size: 1rem;
+    font-family: "Jaro", serif;
+}
+
+.blocAvatar {
+    height: 100%;
+    width: 82%;
+}
+
+.sideStrip {
+    height: 100%;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    font-family: "Jaro", serif;
+    color: lightgray;
+}
+
+.sideStrip span {
+    writing-mode: sideways-lr;
+    white-space: nowrap;
+    padding: 15px;
+}
+
+.sideStrip hr {
+    transform: rotate(180deg);
+    height: 100%;
 }
